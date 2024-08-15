@@ -60,8 +60,8 @@
 		"kAdminVMButtons_ClearTurnQueue": "Clear Turn Queue",
 		"kAdminVMButtons_BypassTurn": "Bypass Turn",
 		"kAdminVMButtons_IndefiniteTurn": "Indefinite Turn",
-		"kAdminVMButtons_GhostTurnOn": "Ghost Turn (Status: ON)",
-		"kAdminVMButtons_GhostTurnOff": "Ghost Turn (Status: OFF)",
+		"kAdminVMButtons_GhostTurnOn": "Infinite Turn (Status: ON)",
+		"kAdminVMButtons_GhostTurnOff": "Infinite Turn (Status: OFF)",
 
 		"kAdminVMButtons_Ban": "Ban User",
 		"kAdminVMButtons_Kick": "Kick User",
