@@ -1,4 +1,4 @@
-# CollabVM 1.2 Webapp 2.0
+# CollabVM 1.2 Webapp 2.0 (Modded with CVMod)
 The CollabVM Web App is the viewer for the CollabVM Server.
 
 ## Building
