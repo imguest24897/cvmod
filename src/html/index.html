@@ -3,20 +3,20 @@
     <head>
         <title>CollabVM (Modified with CVMod)</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8"/>
-        <link href="../css/style.css" rel="stylesheet" type="text/css"/>
-        <link href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link rel="preload" href="../assets/NotoColorEmoji.ttf" as="font" type="font/tff" crossorigin>
-        <script src="../../node_modules/@fortawesome/fontawesome-free/js/all.min.js" crossorigin="anonymous"></script>
-        <link rel="icon" href="../assets/favicon.ico">
-        <meta name="description" content="A website that lets you take turns controlling online virtual machines with complete strangers! Modified with CVMod."/>
+        <meta charset="utf-8">
+        <link href="/index.c92073ef.css" rel="stylesheet" type="text/css">
+        <link href="/index.ab0485ab.css" rel="stylesheet" type="text/css">
+        <link rel="preload" href="/NotoColorEmoji.2f73c7ac.ttf" as="font" type="font/tff" crossorigin="">
+        <link rel="stylesheet" href="/index.478c462d.css"><script src="/index.03c843fe.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="/favicon.277a906c.ico">
+        <meta name="description" content="A website that lets you take turns controlling online virtual machines with complete strangers! Modified with CVMod.">
         <!-- Opengraph shit -->
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="CollabVM (CVMod)"/>
-        <meta property="og:url" content="https://computernewb.com/collab-vm/"/>
-        <meta property="og:description" content="A website that lets you take turns controlling online virtual machines with complete strangers! Modified with CVMod."/>
-        <meta property="og:site_name" content="Computernewb + CVMod"/>
-        <meta property="og:image" content="https://computernewb.com/collab-vm/desktop.png"/>
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="CollabVM (CVMod)">
+        <meta property="og:url" content="https://computernewb.com/collab-vm/">
+        <meta property="og:description" content="A website that lets you take turns controlling online virtual machines with complete strangers! Modified with CVMod.">
+        <meta property="og:site_name" content="Computernewb + CVMod">
+        <meta property="og:image" content="https://computernewb.com/collab-vm/desktop.png">
     </head>
     <body>
         <div class="modal fade" id="qemuMonitorModal" tabindex="-1" aria-hidden="true">
@@ -29,7 +29,7 @@
                     <div class="modal-body">
                         <textarea id="qemuMonitorOutput" readonly="" class="form-control"></textarea>
                         <div class="input-group">
-                            <input type="text" id="qemuMonitorInput" class="form-control" placeholder="Command"/>
+                            <input type="text" id="qemuMonitorInput" class="form-control" placeholder="Command">
                             <button class="btn btn-outline-secondary btn-primary" type="button" id="qemuMonitorSendBtn"></button>
                         </div>
                     </div>
@@ -62,9 +62,9 @@
                         <button type="button" class="btn-close" aria-label="Close" id="incorrectPasswordDismissBtn"></button>
                     </div>
                     <div class="input-group">
-                        <input type="hidden" name="username" id="adminInputVMID"/>
+                        <input type="hidden" name="username" id="adminInputVMID">
                         <span class="input-group-text" id="loginModalPasswordText"></span>
-                        <input id="adminPassword" type="password" class="form-control" name="password"/>   
+                        <input id="adminPassword" type="password" class="form-control" name="password">   
                     </div>
 
 				</div>
@@ -92,26 +92,26 @@
                     </div>
                     <div id="accountLoginSection">
                         <form id="accountLoginForm">
-                            <label for="accountLoginUsername" id="accountLoginUsernameLabel"></label><br/>
-                            <input id="accountLoginUsername" type="text" class="form-control" name="username" required/><br>
-                            <label for="accountLoginPassword" id="accountLoginPasswordLabel"></label><br/>
-                            <input id="accountLoginPassword" type="password" class="form-control" name="password" required><br>
+                            <label for="accountLoginUsername" id="accountLoginUsernameLabel"></label><br>
+                            <input id="accountLoginUsername" type="text" class="form-control" name="username" required=""><br>
+                            <label for="accountLoginPassword" id="accountLoginPasswordLabel"></label><br>
+                            <input id="accountLoginPassword" type="password" class="form-control" name="password" required=""><br>
                             <div id="accountLoginCaptcha"></div>
                             <button type="submit" class="btn btn-primary" id="accountModalLoginBtn"></button> <button type="button" class="btn btn-secondary" id="accountForgotPasswordButton"></button>
                         </form>
                     </div>
                     <div id="accountRegisterSection">
                         <form id="accountRegisterForm">
-                            <label for="accountRegisterEmail" id="accountRegisterEmailLabel"></label><br/>
-                            <input id="accountRegisterEmail" type="email" class="form-control" name="email" required/><br>
-                            <label for="accountRegisterUsername" id="accountRegisterUsernameLabel"></label><br/>
-                            <input id="accountRegisterUsername" type="text" class="form-control" name="username" required/><br>
-                            <label for="accountRegisterPassword" id="accountRegisterPasswordLabel"></label><br/>
-                            <input id="accountRegisterPassword" type="password" class="form-control" name="password" required><br>
-                            <label for="accountRegisterConfirmPassword" id="accountRegisterConfirmPasswordLabel"></label><br/>
-                            <input id="accountRegisterConfirmPassword" type="password" class="form-control" name="confirmpassword" required><br>
-                            <label for="accountRegisterDateOfBirth" id="accountRegisterDateOfBirthLabel"></label><br/>
-                            <input id="accountRegisterDateOfBirth" type="date" class="form-control" name="dateofbirth" required><br/>
+                            <label for="accountRegisterEmail" id="accountRegisterEmailLabel"></label><br>
+                            <input id="accountRegisterEmail" type="email" class="form-control" name="email" required=""><br>
+                            <label for="accountRegisterUsername" id="accountRegisterUsernameLabel"></label><br>
+                            <input id="accountRegisterUsername" type="text" class="form-control" name="username" required=""><br>
+                            <label for="accountRegisterPassword" id="accountRegisterPasswordLabel"></label><br>
+                            <input id="accountRegisterPassword" type="password" class="form-control" name="password" required=""><br>
+                            <label for="accountRegisterConfirmPassword" id="accountRegisterConfirmPasswordLabel"></label><br>
+                            <input id="accountRegisterConfirmPassword" type="password" class="form-control" name="confirmpassword" required=""><br>
+                            <label for="accountRegisterDateOfBirth" id="accountRegisterDateOfBirthLabel"></label><br>
+                            <input id="accountRegisterDateOfBirth" type="date" class="form-control" name="dateofbirth" required=""><br>
                             <div id="accountRegisterCaptcha"></div>
                             <button type="submit" class="btn btn-primary" id="accountModalRegisterBtn"></button>
                         </form>
@@ -122,9 +122,9 @@
                             <p id="accountVerifyEmailText"></p>
                             <form id="accountVerifyEmailForm">
                                 <label for="accountVerifyEmailCode" id="accountVerifyEmailCodeLabel"></label><br>
-                                <input id="accountVerifyEmailCode" type="text" class="form-control" name="code" required><br>
+                                <input id="accountVerifyEmailCode" type="text" class="form-control" name="code" required=""><br>
                                 <label for="accountVerifyEmailPassword" id="accountVerifyEmailPasswordLabel"></label><br>
-                                <input id="accountVerifyEmailPassword" type="password" class="form-control" name="password" required/><br/>
+                                <input id="accountVerifyEmailPassword" type="password" class="form-control" name="password" required=""><br>
                                 <button type="submit" class="btn btn-primary" id="accountModalVerifyEmailBtn"></button>
                             </form>
                         </center>
@@ -132,39 +132,39 @@
                     <div id="accountSettingsSection">
                         <form id="accountSettingsForm">
                             <label for="accountSettingsEmail" id="accountSettingsEmailLabel"></label><br>
-                            <input id="accountSettingsEmail" type="email" class="form-control" name="email" required/><br/>
+                            <input id="accountSettingsEmail" type="email" class="form-control" name="email" required=""><br>
                             <label for="accountSettingsUsername" id="accountSettingsUsernameLabel"></label><br>
-                            <input id="accountSettingsUsername" type="text" class="form-control" name="username" required/><br/>
+                            <input id="accountSettingsUsername" type="text" class="form-control" name="username" required=""><br>
                             <label for="accountSettingsNewPassword" id="accountSettingsNewPasswordLabel"></label>
-                            <input id="accountSettingsNewPassword" type="password" class="form-control" name="password"/><br/>
+                            <input id="accountSettingsNewPassword" type="password" class="form-control" name="password"><br>
                             <label for="accountSettingsConfirmNewPassword" id="accountSettingsConfirmNewPasswordLabel"></label>
-                            <input id="accountSettingsConfirmNewPassword" type="password" class="form-control" name="confirmpassword"/><br/>
+                            <input id="accountSettingsConfirmNewPassword" type="password" class="form-control" name="confirmpassword"><br>
                             <label for="accountSettingsCurrentPassword" id="accountSettingsCurrentPasswordLabel"></label>
-                            <input id="accountSettingsCurrentPassword" type="password" class="form-control" name="currentpassword" required/><br/>
-                            <input type="checkbox" id="hideFlagCheckbox" class="form-check-input"/> <label for="hideFlagCheckbox" id="hideFlagCheckboxLabel"></label><br/>
+                            <input id="accountSettingsCurrentPassword" type="password" class="form-control" name="currentpassword" required=""><br>
+                            <input type="checkbox" id="hideFlagCheckbox" class="form-check-input"> <label for="hideFlagCheckbox" id="hideFlagCheckboxLabel"></label><br>
                             <button type="submit" class="btn btn-primary" id="updateAccountSettingsBtn"></button>
                         </form>
                     </div>
                     <div id="accountResetPasswordSection">
                         <form id="accountResetPasswordForm">
                             <label for="accountResetPasswordEmail" id="accountResetPasswordEmailLabel"></label><br>
-                            <input id="accountResetPasswordEmail" type="email" class="form-control" name="email" required/><br/>
+                            <input id="accountResetPasswordEmail" type="email" class="form-control" name="email" required=""><br>
                             <label for="accountResetPasswordUsername" id="accountResetPasswordUsernameLabel"></label>
-                            <input id="accountResetPasswordUsername" type="text" class="form-control" name="username" required/><br/>
+                            <input id="accountResetPasswordUsername" type="text" class="form-control" name="username" required=""><br>
                             <div id="accountResetPasswordCaptcha"></div>
                             <button type="submit" class="btn btn-primary" id="accountResetPasswordBtn"></button>
-                    </div>
+                    </form></div>
                     <div id="accountResetPasswordVerifySection">
                         <center>
                             <i class="fa-solid fa-envelope" style="font-size: 12rem"></i>
                             <p id="accountVerifyPasswordResetText"></p>
                             <form id="accountResetPasswordVerifyForm">
                                 <label for="accountResetPasswordCode" id="accountResetPasswordCodeLabel"></label><br>
-                                <input id="accountResetPasswordCode" type="text" class="form-control" name="code" required><br>
+                                <input id="accountResetPasswordCode" type="text" class="form-control" name="code" required=""><br>
                                 <label for="accountResetPasswordNewPassword" id="accountResetPasswordNewPasswordLabel"></label><br>
-                                <input id="accountResetPasswordNewPassword" type="password" class="form-control" name="password" required/><br/>
+                                <input id="accountResetPasswordNewPassword" type="password" class="form-control" name="password" required=""><br>
                                 <label for="accountResetPasswordConfirmNewPassword" id="accountResetPasswordConfirmNewPasswordLabel"></label><br>
-                                <input id="accountResetPasswordConfirmNewPassword" type="password" class="form-control" name="confirmpassword" required/><br/>
+                                <input id="accountResetPasswordConfirmNewPassword" type="password" class="form-control" name="confirmpassword" required=""><br>
                                 <button type="submit" class="btn btn-primary" id="accountResetPasswordVerifyBtn"></button>
                             </form>
                         </center>
@@ -235,9 +235,9 @@
         <div id="vmview">
             <div id="vmDisplay"></div>
             <p id="turnstatus"></p>
-            <div id="voteResetPanel" style="display:none;">
-                <span id="voteResetHeaderText"></span><br/>
-                <button class="btn btn-success" id="voteYesBtn"><i class="fa-solid fa-check"></i> <span id="voteYesBtnText"></span><span class="badge bg-secondary" id="voteYesLabel"></span></button> <button class="btn btn-danger" id="voteNoBtn"><i class="fa-solid fa-ban"></i> <span id="voteNoBtnText"></span><span class="badge bg-secondary" id="voteNoLabel"></span></button><br/>
+            <div id="voteResetPanel" style="display: none">
+                <span id="voteResetHeaderText"></span><br>
+                <button class="btn btn-success" id="voteYesBtn"><i class="fa-solid fa-check"></i> <span id="voteYesBtnText"></span><span class="badge bg-secondary" id="voteYesLabel"></span></button> <button class="btn btn-danger" id="voteNoBtn"><i class="fa-solid fa-ban"></i> <span id="voteNoBtnText"></span><span class="badge bg-secondary" id="voteNoLabel"></span></button><br>
                 <span id="voteTimeText"></span>
                 <div id="forceVotePanel">
                     <button class="btn btn-info" id="forceVoteYesBtn"><i class="fa-solid fa-check"></i> <span id="passVoteBtnText"></span></button>
@@ -296,9 +296,9 @@
                     </div>
                     <div class="input-group">
                         <span class="input-group-text username-unregistered" id="username"></span>
-                        <input type="text" class="form-control" id="chat-input"/>
+                        <input type="text" class="form-control" id="chat-input">
                         <div class="input-group-text" id="xssCheckboxContainer">
-                            <input class="form-check-input" type="checkbox" value="" id="xssCheckbox"/>
+                            <input class="form-check-input" type="checkbox" value="" id="xssCheckbox">
                             <label class="form-check-label" for="xssCheckbox">XSS</label>
                         </div>
                         <button class="btn btn-primary" type="button" id="sendChatBtn"><i class="fa-solid fa-paper-plane"></i></button>
@@ -307,6 +307,6 @@
             </div>
         </div>
         <script src="https://js.hcaptcha.com/1/api.js"></script>
-        <script type="module" src="../ts/main.ts" type="application/javascript"></script>
+        <script src="/index.ca39cc5e.js" defer=""></script>
     </body>
 </html>
